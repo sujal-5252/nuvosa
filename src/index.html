@@ -6,5 +6,154 @@
     <title>Bootstrap w/ Vite</title>
     <script type="module" src="./js/main.js"></script>
   </head>
-  <body></body>
+  <body class="p-1 ps-lg-5 pe-lg-5 pt-lg-4">
+    <nav class="navbar navbar-expand-lg pb-md-4 pb-lg-6">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-3" href="#">nuvosa</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0 align-items-lg-center fs-4 w-100 justify-content-lg-end gap-lg-5 gap-md-2">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Contact</a>
+            </li>
+            <li class="nav-item d-flex align-items-center gap-2">
+              <a class="nav-link active p-0" aria-current="page" href="#">
+                <button class="btn d-flex btn--transparent m-0 p-1 ps-md-4 pe-md-4 pt-md-1 pb-md-1">Let's Talk</button>
+              </a>
+              <a class="nav-link active p-0" aria-current="page" href="#">
+                <button class="btn d-flex m-0 p-1 btn--yellow p-lg-3">
+                  <img src="./assets/navbar/search-icon.svg" alt="" />
+                </button>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero container-fluid row">
+      <div class="hero__left col-md-7">
+        <h1 class="hero__heading">Increase your web traffic with our <span class="decorated hero__expert">expert</span></h1>
+        <p class="hero__description">
+          It is a long established fact that a reader will be distracted by the readable content of a page when It is a long .It is a long established fact that
+          a reader will be distracted by the readable content of a is simply. It is a long established fact that a reader will be distracted.
+        </p>
+        <a href="#"><button class="btn btn--yellow hero__cta-button">Get started</button></a>
+        <a href="#"><img src="./assets/hero/take-a-tour-icon.svg" alt="" class="hero__tour-btn" /></a>
+      </div>
+      <div class="hero__right row-cols-1 col-md-5"><img src="./assets/hero/hero_image.png" alt="" class="hero__img" /></div>
+      <div class="creative-team">
+        <h5>Our creative team</h5>
+        <div class="creative-team__img-container">
+          <img src="./assets/hero/creative_pfp_1.png" alt="" class="creative-team__profile_img" />
+          <img src="./assets/hero/creative_pfp_2.png" alt="" class="creative-team__profile_img" />
+          <img src="./assets/hero/creative_pfp_3.png" alt="" class="creative-team__profile_img" />
+          <img src="./assets/hero/creative_pfp_4.png" alt="" class="creative-team__profile_img" />
+          <img src="./assets/hero/plus_icon.png" alt="" class="creative-team__profile_img" />
+        </div>
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="card-container">
+        <div class="card">
+          <div class="card__top">
+            <img src="./assets/services/card_icon_1.png" alt="" class="card__icon" />
+            <h3 class="card__heading">Social Media Management</h3>
+          </div>
+          <p class="card__description">
+            It is a long established fact that a reader will be distracted by the readable content. It is a long established fact that .
+          </p>
+          <a href="#"
+            ><button class="btn card__btn"><img src="./assets/services/arrow_right_icon.svg" alt="" class="btn__icon" /></button
+          ></a>
+        </div>
+        <div class="card">
+          <div class="card__top">
+            <img src="./assets/services/card_icon_2.png" alt="" class="card__icon" />
+            <h3 class="card__heading">Email Marketing</h3>
+          </div>
+          <p class="card__description">
+            It is a long established fact that a reader will be distracted by the readable content. It is a long established fact that.
+          </p>
+          <a href="#"
+            ><button class="btn card__btn"><img src="./assets/services/arrow_right_icon.svg" alt="" class="btn__icon" /></button
+          ></a>
+        </div>
+        <div class="card">
+          <div class="card__top">
+            <img src="./assets/services/card_icon_3.png" alt="" class="card__icon" />
+            <h3 class="card__heading">SEO Management</h3>
+          </div>
+          <p class="card__description">
+            It is a long established fact that a reader will be distracted by the readable content. It is a long established fact that a reader.
+          </p>
+          <a href="#"
+            ><button class="btn card__btn"><img src="./assets/services/arrow_right_icon.svg" alt="" class="btn__icon" /></button
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="optimising">
+      <h2 class="optimising__heading">Optimising your <span class="decorated">Website</span></h2>
+      <p class="optimising__description">
+        It is a long established fact that a reader will be distracted by the readable content of a page when It is a long .
+      </p>
+      <div class="card-container">
+        <div class="card">
+          <img src="./assets/optimising/card_icon_1.svg" alt="" class="card__icon" />
+          <h4 class="card__heading">Keyword Research</h4>
+          <p class="card__description">It is a long established fact that a reader will be distracted by the It is a long established .</p>
+        </div>
+        <div class="card">
+          <img src="./assets/optimising/card_icon_2.svg" alt="" class="card__icon" />
+          <h4 class="card__heading">content Optimisation</h4>
+          <p class="card__description">It is a long established fact that a reader will be distracted by the It is a long established.</p>
+        </div>
+        <div class="card">
+          <img src="./assets/optimising/card_icon_3.svg" alt="" class="card__icon" />
+          <h4 class="card__heading">Target Analysis</h4>
+          <p class="card__description">It is a long established fact that a reader will be distracted by the It is a long established.</p>
+        </div>
+        <div class="card">
+          <img src="./assets/optimising/card_icon_4.svg" alt="" class="card__icon" />
+          <h4 class="card__heading">Continuous Testing</h4>
+          <p class="card__description">It is a long established fact that a reader will be distracted by the It is a long established.</p>
+        </div>
+      </div>
+    </section>
+    <section class="solution row">
+      <div class="solution__left row-cols-1 col-md-5 offset-1">
+        <h2 class="solution__heading">Perfect Solution For Your <span class="decorated">Business</span></h2>
+        <p class="solution__description">
+          It is a long established fact that a reader will be distracted by the It is a long established .t is a long established fact that a reader will be
+          distracted by the readable content of.
+        </p>
+        <button class="btn btn--yellow">Learn More</button>
+      </div>
+      <div class="solution__right row-cols-1 col-md-5"><img src="./assets/solution/solution_img.png" alt="" class="solution__img" /></div>
+    </section>
+  </body>
 </html>
