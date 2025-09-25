@@ -1,0 +1,23 @@
+.services__card {
+  padding: 25px;
+  padding-bottom: 17px;
+  padding-right: 17px;
+  border: 2px solid transparent;
+  max-width: 500px;
+
+  background: #ffffff;
+  box-shadow: 0px 17px 33px -14px rgba(2, 22, 5, 0.07);
+  border-radius: 5px;
+
+  &:hover {
+    box-shadow: -1px 20px 33px -14px rgba(2, 22, 5, 0.2);
+  }
+
+  .card__heading {
+    font-weight: normal;
+  }
+
+  button:hover {
+    background-color: rgb(228, 228, 228);
+  }
+}

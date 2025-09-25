@@ -1,14 +1,28 @@
 @import "../../../node_modules/bootstrap/scss/variables";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 * {
   font-family: "Poppins";
 }
 
+p {
+  padding: 0;
+  margin: 0;
+  font-size: 17px;
+  color: #727272;
+  max-width: 700px;
+}
+
+h1 {
+  font-family: "Inter";
+  font-weight: 600;
+}
+
 .btn {
   border: none;
   border-radius: 4px;
-  font-size: inherit;
+  font-size: 24px;
 
   &:hover {
     background-color: black;
@@ -29,4 +43,26 @@
 .btn--transparent {
   background-color: transparent;
   border: black solid 2px;
+}
+
+.decorated {
+  color: $primary;
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+@media (width < 576px) {
+  * {
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+}
+
+@media (width < 992px) {
+  h2 {
+    font-size: 36px;
+  }
 }
