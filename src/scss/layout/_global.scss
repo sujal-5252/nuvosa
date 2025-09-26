@@ -11,7 +11,7 @@ p {
   margin: 0;
   font-size: 17px;
   color: #727272;
-  max-width: 700px;
+  max-width: 800px;
 }
 
 h1 {
@@ -65,4 +65,29 @@ h1 {
   h2 {
     font-size: 36px;
   }
+}
+
+.background--grey {
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%; /* Center horizontally */
+    width: 100vw; /* Extend to full viewport width */
+    height: 100%;
+    background-color: #fafafa;
+    transform: translateX(-50%); /* Adjust for centering */
+    z-index: -1; /* Place behind content */
+  }
+}
+
+.dot {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: #bc424e;
+  border-radius: 100%;
 }

@@ -7,12 +7,12 @@
     <script type="module" src="./js/main.js"></script>
   </head>
   <body
-    class="p-1 p-md-3 ps-l-4 pe-l-4 pt-l-3 ps-xl-5 pe-xl-5 pt-xl-4 ps-xxl-6 pe-xxl-6 pt-xxl-5"
+    class="px-1 pt-1 px-md-3 pt-md-3 ps-l-4 pe-l-4 pt-l-3 ps-xl-5 pe-xl-5 pt-xl-4 ps-xxl-6 pe-xxl-6 pt-xxl-5"
   >
     <nav class="navbar navbar-expand-xl pb-md-4 pb-3 pb-xl-6">
       <div class="container-fluid">
         <a
-          class="navbar-brand fs-3 d-flex fw-medium align-items-center"
+          class="navbar-brand fs-3 d-flex fw-medium align-items-center mb-2 mb-xl-0"
           href="#"
           >nuvosa
           <div class="dot"></div
@@ -30,7 +30,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul
-            class="navbar-nav mb-2 mb-lg-0 align-items-lg-center fs-4 w-100 justify-content-lg-end gap-xl-5 gap-1 gap-lg-2"
+            class="navbar-nav mb-2 mb-lg-0 align-items-xl-center w-100 fs-4 justify-content-lg-end gap-xl-5 gap-2 gap-lg-2"
           >
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -54,11 +54,11 @@
               >
             </li>
             <li
-              class="nav-item d-flex align-items-center gap-2 justify-content-center"
+              class="nav-item d-flex align-items-center gap-2 justify-content-xl-center"
             >
               <a class="nav-link active p-0" aria-current="page" href="#">
                 <button
-                  class="btn d-flex btn--transparent m-0 p-1 ps-xl-4 pe-xl-4 pt-xl-1 pb-lg-1 ms-xxl-5"
+                  class="btn d-flex btn--transparent fs-4 m-0 ps-xl-4 pe-xl-4 pt-xl-1 pb-lg-1 ms-xxl-5"
                 >
                   Let's Talk
                 </button>
@@ -299,7 +299,7 @@
       </div>
     </section>
     <section
-      class="solution container-fluid gap-4 d-flex flex-column-reverse flex-lg-row align-items-center justify-content-center flex-grow-1"
+      class="solution background--grey container-fluid gap-4 d-flex flex-column-reverse flex-lg-row align-items-center justify-content-center flex-grow-1"
     >
       <div
         class="solution__left d-flex flex-column gap-4 aliggn-items-center align-items-lg-start"
@@ -312,9 +312,11 @@
           It is a long established .t is a long established fact that a reader
           will be distracted by the readable content of.
         </p>
-        <button class="btn btn--yellow ps-lg-4 pe-lg-4 pt-lg-1 pb-lg-1">
-          Learn More
-        </button>
+        <a href="#">
+          <button class="btn btn--yellow ps-lg-4 pe-lg-4 pt-lg-1 pb-lg-1">
+            Learn More
+          </button>
+        </a>
       </div>
       <div class="solution__right">
         <img
@@ -322,6 +324,212 @@
           alt=""
           class="solution__img"
         />
+      </div>
+    </section>
+
+    <section class="benefits d-flex flex-column gap-3">
+      <div
+        class="card-container d-flex flex-column justify-content-center align-items-center flex-sm-row flex-sm-wrap"
+      >
+        <div
+          class="card align-items-center align-items-sm-start justify-content-between"
+        >
+          <img
+            src="./assets/benefits/card_icon_1.svg"
+            alt=""
+            class="card__icon mb-auto"
+          />
+          <h4 class="card__heading">Grow Your Business</h4>
+          <div class="card__body d-flex flex-column gap-1">
+            <p class="card__description">
+              It is a long established fact that a reader will be distracted by
+            </p>
+            <a href="#">Read more..</a>
+          </div>
+        </div>
+        <div
+          class="card align-items-center align-items-sm-start justify-content-between"
+        >
+          <img
+            src="./assets/benefits/card_icon_2.svg"
+            alt=""
+            class="card__icon mb-auto"
+          />
+          <h4 class="card__heading">Get Quality Lead</h4>
+          <div class="card__body d-flex flex-column gap-1">
+            <p class="card__description">
+              It is a long established fact that a reader will be distracted by.
+            </p>
+            <a href="#">Read more..</a>
+          </div>
+        </div>
+        <div
+          class="card align-items-center align-items-sm-start justify-content-between"
+        >
+          <img
+            src="./assets/benefits/card_icon_3.svg"
+            alt=""
+            class="card__icon mb-auto"
+          />
+          <h4 class="card__heading">Drive More Sales</h4>
+          <div class="card__body d-flex flex-column gap-1">
+            <p class="card__description">
+              It is a long established fact that a reader will be distracted by
+            </p>
+            <a href="#">Read more..</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="choose-us background--grey d-flex flex-column gap-1 align-items-center"
+    >
+      <h2 class="choose-us__heading">
+        Why You Should <span class="decorated">Choose Us.</span>
+      </h2>
+      <p class="choose-us__description mb-2">
+        It is a long established fact that a reader will be distracted by the
+        readable content of a page when It is a long .
+      </p>
+      <div
+        class="card-container d-flex flex-column justify-content-center align-items-center flex-sm-row flex-sm-wrap"
+      >
+        <div class="card align-items-center justify-content-center">
+          <img
+            src="./assets/choose-us/card_icon_1.png"
+            alt=""
+            class="card__icon"
+          />
+          <h4 class="card__heading">SEO Optimization</h4>
+          <div class="card__body d-flex flex-column gap-1 align-items-center">
+            <p class="card__description">
+              It is a long established fact that a reader will be distracted
+              by.It is a long established.
+            </p>
+            <a href="#"
+              ><button class="card__button btn btn--yellow">
+                Learn More
+              </button></a
+            >
+          </div>
+        </div>
+
+        <div class="card align-items-center justify-content-center">
+          <img
+            src="./assets/choose-us/card_icon_2.png"
+            alt=""
+            class="card__icon"
+          />
+          <h4 class="card__heading">Keyword Research</h4>
+          <div class="card__body d-flex flex-column gap-1 align-items-center">
+            <p class="card__description">
+              It is a long established fact that a reader will be distracted
+              by.It is a long established.
+            </p>
+            <a href="#"
+              ><button class="card__button btn btn--yellow">
+                Learn More
+              </button></a
+            >
+          </div>
+        </div>
+        <div class="card align-items-center justify-content-center">
+          <img
+            src="./assets/choose-us/card_icon_3.png"
+            alt=""
+            class="card__icon"
+          />
+          <h4 class="card__heading">Social Marketing</h4>
+          <div class="card__body d-flex flex-column gap-1 align-items-center">
+            <p class="card__description">
+              It is a long established fact that a reader will be distracted
+              by.It is a long established.
+            </p>
+            <a href="#"
+              ><button class="card__button btn btn--yellow">
+                Learn More
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="seo d-flex flex-column flex-md-row align-items-center justify-content-center gap-3 gap-lg-6"
+    >
+      <div class="seo__left">
+        <img src="./assets/seo/image.png" alt="" class="seo__image" />
+      </div>
+      <div class="seo__right d-flex flex-column">
+        <h2 class="seo__heading">
+          You May Ask What SEO & Why Do You
+          <span class="decorated">Need It?</span>
+        </h2>
+        <p class="seo__description">
+          It is a long established fact that a reader will be distracted by the
+          readable content .It is a long established fact that a reader .It is a
+          long.
+        </p>
+        <div class="card-container d-flex flex-column">
+          <div class="card d-flex flex-column flex-sm-row align-items-center">
+            <img src="./assets/seo/card_icon_1.svg" alt="" class="card__icon" />
+            <div class="card__body d-flex flex-column">
+              <h4 class="card__heading">Social Media Marketing</h4>
+              <p class="card__description">
+                It is a long established fact that a reader will be distracted
+                by the.
+              </p>
+            </div>
+          </div>
+          <div class="card d-flex flex-column flex-sm-row align-items-center">
+            <img src="./assets/seo/card_icon_2.svg" alt="" class="card__icon" />
+            <div class="card__body d-flex flex-column">
+              <h4 class="card__heading">Email Marketing</h4>
+              <p class="card__description">
+                It is a long established fact that a reader will be distracted
+                by the.
+              </p>
+            </div>
+          </div>
+          <div class="card d-flex flex-column flex-sm-row align-items-center">
+            <img src="./assets/seo/card_icon_3.svg" alt="" class="card__icon" />
+            <div class="card__body d-flex flex-column">
+              <h4 class="card__heading">SEO Optimization</h4>
+              <p class="card__description">
+                It is a long established fact that a reader will be distracted
+                by the.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats d-flex justify-content-center">
+      <div
+        class="stats__container d-flex flex-column flex-md-row justify-content-center align-items-center"
+      >
+        <div class="stats__data">
+          <div class="stats__val">86</div>
+          <div class="stats__label">Happy Client</div>
+        </div>
+        <div class="dot stats__dot"></div>
+        <div class="stats__data">
+          <div class="stats__val">118</div>
+          <div class="stats__label">Project Done</div>
+        </div>
+        <div class="dot stats__dot"></div>
+        <div class="stats__data">
+          <div class="stats__val">6+</div>
+          <div class="stats__label">Years Of Experience</div>
+        </div>
+        <div class="dot stats__dot"></div>
+        <div class="stats__data">
+          <div class="stats__val">14</div>
+          <div class="stats__label">National Awards</div>
+        </div>
       </div>
     </section>
   </body>

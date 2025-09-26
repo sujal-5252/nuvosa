@@ -8,19 +8,24 @@
   }
   .nav-item {
     border-bottom: 3px solid transparent;
+    text-align: start;
     &:hover {
       border-bottom: 3px solid $primary;
+    }
+    &:last-child:hover {
+      border-bottom: 3px solid transparent;
     }
   }
 }
 
-@media (width < 1600px) {
+@media (width < 1200px) {
   .navbar {
-    ul {
-      gap: 48px !important;
-    }
-    button {
+    .btn--transparent {
       padding: 10px !important;
+      font-size: 14px;
+    }
+    .btn--yellow {
+      padding: 15px !important;
     }
   }
 }

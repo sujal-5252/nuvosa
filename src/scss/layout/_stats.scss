@@ -1,0 +1,37 @@
+.stats {
+  color: #6f6f6f;
+  margin-bottom: 87px;
+  &__container {
+    gap: 56px;
+    border: 1px solid #e1e1e1;
+    padding: 54px 65px;
+  }
+
+  &__val {
+    font-size: 73px;
+  }
+
+  &__label {
+    font-size: 17px;
+    line-height: 26px;
+  }
+
+  &__data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 65px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  &__dot {
+    &:nth-child(4) {
+      background-color: #3bd165;
+    }
+    &:nth-child(6) {
+      background-color: #f7c745;
+    }
+  }
+}

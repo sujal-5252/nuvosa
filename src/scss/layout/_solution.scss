@@ -1,17 +1,6 @@
 .solution {
-  position: relative;
   padding: 100px 200px;
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 50%; /* Center horizontally */
-    width: 100vw; /* Extend to full viewport width */
-    height: 100%;
-    background-color: #fafafa;
-    transform: translateX(-50%); /* Adjust for centering */
-    z-index: -1; /* Place behind content */
-  }
+
   &__left {
     max-width: 600px;
   }
@@ -27,6 +16,6 @@
 @media (width < 992px) {
   .solution {
     text-align: center;
-    padding: 0px;
+    padding: 20px 10px;
   }
 }
