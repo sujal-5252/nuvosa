@@ -1,0 +1,82 @@
+@import "../../../node_modules/bootstrap/scss/variables";
+.plans {
+  padding-top: 53px;
+  padding-bottom: 66px;
+  * {
+    text-align: center;
+  }
+
+  .card-container {
+    gap: 24px;
+  }
+
+  .card {
+    max-width: 372px;
+    min-height: 523px;
+    padding: 65px 58px 80px 58px;
+    border: none;
+    gap: 28px;
+    margin-top: 29px;
+    margin-bottom: 29px;
+
+    &:hover {
+      margin-top: 0px;
+      margin-bottom: 0px;
+      min-height: 581px;
+      position: relative;
+      color: white;
+      background-image: url("../../assets/plans/hover_background.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-color: #6069ec;
+
+      * {
+        color: white;
+      }
+
+      button {
+        background-color: $secondary;
+        border: none;
+        color: black;
+      }
+    }
+
+    &__heading {
+      font-size: 24px;
+      margin-bottom: none;
+      color: $primary;
+    }
+
+    &__description {
+      font-size: 17px;
+    }
+    button {
+      font-size: 14px;
+      padding: 11px 22px;
+    }
+
+    &__price {
+      font-weight: 500;
+    }
+
+    &__currency {
+      font-size: 16px;
+    }
+
+    &__val {
+      font-size: 49px;
+      line-height: 49px;
+    }
+    &_time {
+      font-size: 15px;
+    }
+
+    &__features {
+      gap: 10px;
+    }
+  }
+
+  &__description {
+    margin-bottom: 57px;
+  }
+}

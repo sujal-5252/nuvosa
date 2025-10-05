@@ -1,0 +1,48 @@
+.check-speed {
+  padding: 0px 50px;
+  gap: 15px;
+
+  &__left {
+    gap: 8px;
+
+    p {
+      margin-bottom: 44px;
+    }
+
+    form {
+      gap: 36px;
+    }
+
+    input {
+      width: 100%;
+      padding: 13px 23px;
+      background-color: #f2f2f2;
+      color: #b6b6b6;
+      border: 2px solid transparent;
+
+      &:last-child {
+        border-left: 2px solid #b6b6b6;
+
+        @media (max-width: 992px) {
+          border-color: transparent;
+        }
+      }
+
+      &:focus,
+      &:focus-visible {
+        border: 2px solid black;
+      }
+    }
+
+    button {
+      padding: 14px 28px;
+      font-size: 16px;
+    }
+  }
+
+  &__right {
+    img {
+      max-width: clamp(150px, 40vw, 693px);
+    }
+  }
+}

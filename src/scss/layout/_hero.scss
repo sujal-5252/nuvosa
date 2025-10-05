@@ -4,11 +4,38 @@
 .hero__expert {
   display: inline-block;
   font-size: clamp(18px, 3vw, 48px);
-  border: 2.29px solid $primary;
+  border: 3px solid $primary;
   padding: 5px 20px;
   position: relative;
   rotate: -9deg;
   transform: translateY(-4px) translateX(4px);
+  .dot {
+    height: 12px;
+    width: 12px;
+    border-radius: 100%;
+    background: $primary;
+    position: absolute;
+  }
+
+  .lefttop {
+    top: -7px;
+    left: -7px;
+  }
+
+  .leftbottom {
+    bottom: -7px;
+    left: -7px;
+  }
+
+  .righttop {
+    right: -7px;
+    top: -7px;
+  }
+
+  .rightbottom {
+    right: -7px;
+    bottom: -7px;
+  }
 }
 
 .hero__creative-team {

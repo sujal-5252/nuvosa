@@ -1,0 +1,51 @@
+.subscribe {
+  padding-top: 57px;
+  padding-bottom: 95px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #fafafa;
+  border-radius: 16px;
+  text-align: center;
+  @media (min-width: 1440px) {
+    margin-top: 250px;
+    margin-bottom: 170px;
+    margin-left: 148px;
+    margin-right: 148px;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+
+  &__heading {
+    font-size: clamp(36px, 4vw, 50px);
+  }
+
+  &__description {
+    font-size: 20px;
+    margin-bottom: 41px;
+    color: #909090;
+  }
+
+  &__form {
+    gap: 30px;
+
+    input {
+      padding: 24px 37px;
+      width: 100%;
+      border: 1px solid #c3c6d0;
+      font-size: 19px;
+    }
+
+    button {
+      padding: 22px 24px;
+      background-color: $primary;
+      font-size: 20px;
+      color: white;
+
+      &:hover {
+        background-color: #9ca3fa;
+      }
+    }
+  }
+}
