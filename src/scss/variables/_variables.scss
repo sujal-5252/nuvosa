@@ -13,7 +13,7 @@ $spacers: (
   8: 230px,
 );
 
-$h1-font-size: clamp(30px, 10vw, 90px);
+$h1-font-size: clamp(40px, 10vw, 90px);
 $h2-font-size: 55px;
 $h3-font-size: 38px;
 $h4-font-size: 24px;
@@ -28,3 +28,12 @@ $grid-gutter-width: 30px !default;
   $h3-font-size: 2px;
   $h4-font-size: 2px;
 }
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1500px,
+);

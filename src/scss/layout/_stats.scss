@@ -5,6 +5,9 @@
     gap: 56px;
     border: 1px solid #e1e1e1;
     padding: 54px 65px;
+    @media (width < 1400px) {
+      gap: 20px;
+    }
   }
 
   &__val {

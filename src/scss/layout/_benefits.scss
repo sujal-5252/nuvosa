@@ -7,11 +7,10 @@
   }
 
   .card {
-    max-width: 370px;
-    min-height: 289px;
     padding: 34px 48px 26px 30px;
     border: none;
     gap: 17px;
+    width: 100%;
 
     &:hover {
       box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.1);
@@ -19,6 +18,15 @@
     h4 {
       font-size: 22px;
       margin-bottom: 5px;
+    }
+
+    @media (width > 1200px) {
+      max-width: 300px;
+      min-height: 289px;
+    }
+    @media (width > 1600px) {
+      max-width: 370px;
+      min-height: 289px;
     }
   }
 
@@ -53,10 +61,7 @@
       transform: scaleX(1);
     }
   }
-}
-
-@media (width > 576px) {
-  .benefits {
+  @media (width > 576px) {
     padding-top: 100px;
     padding-bottom: 84px;
   }

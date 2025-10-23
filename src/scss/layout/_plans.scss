@@ -11,13 +11,12 @@
   }
 
   .card {
-    max-width: 372px;
-    min-height: 523px;
     padding: 65px 58px 80px 58px;
     border: none;
     gap: 28px;
     margin-top: 29px;
     margin-bottom: 29px;
+    flex-direction: column;
 
     &:hover {
       margin-top: 0px;
@@ -73,6 +72,11 @@
 
     &__features {
       gap: 10px;
+    }
+
+    @media (width > 1200px) {
+      max-width: 372px;
+      min-height: 523px;
     }
   }
 

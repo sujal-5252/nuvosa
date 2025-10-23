@@ -64,5 +64,12 @@
       font-size: 14px;
       padding: 11px 22px;
     }
+    @media (width > 900px) {
+      min-width: 40%;
+    }
+
+    @media (width > 1400px) {
+      min-width: auto;
+    }
   }
 }
