@@ -22,7 +22,7 @@
   }
 
   .card {
-    max-width: 269px;
+    min-width: 269px;
     min-height: 339px;
     padding: 53px 37px 44px 37px;
     border: 1px solid #efefef;
@@ -70,6 +70,14 @@
 
     @media (width > 1400px) {
       min-width: auto;
+    }
+  }
+
+  @media (width > 1200px) {
+    .marquee-container {
+      animation-play-state: paused;
+      transform: none;
+      animation: none;
     }
   }
 }

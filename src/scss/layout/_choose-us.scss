@@ -17,7 +17,7 @@
     width: 100%;
 
     img {
-      width: clamp(100px, 100%, 307px);
+      width: clamp(100px, 100%, 150px);
       max-height: 200px;
       margin-bottom: 26px;
     }
@@ -37,6 +37,14 @@
     button {
       font-size: 14px;
       padding: 11px 22px;
+    }
+
+    @media (width > 500px) {
+      width: 70%;
+
+      img {
+        width: clamp(100px, 100%, 307px);
+      }
     }
 
     @media (width > 1200px) {

@@ -20,6 +20,14 @@
       margin-bottom: 5px;
     }
 
+    @media (width > 500px) {
+      width: 70%;
+    }
+
+    @media (width > 1900px) {
+      max-width: 500px;
+    }
+
     @media (width > 1200px) {
       max-width: 300px;
       min-height: 289px;
@@ -31,7 +39,11 @@
   }
 
   .card-container {
-    gap: 75px;
+    gap: 26px;
+
+    @media (width > 1200px) {
+      gap: 75px;
+    }
   }
 
   a {

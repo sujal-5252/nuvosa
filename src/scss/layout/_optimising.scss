@@ -16,6 +16,10 @@
       border-bottom: 4px solid $primary;
     }
 
+    @media (width > 500px) {
+      width: 70%;
+    }
+
     @media (width > 1910px) {
       padding: 56px 44px 92px 34px;
       max-width: 400px;

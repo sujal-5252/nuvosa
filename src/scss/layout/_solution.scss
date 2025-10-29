@@ -1,5 +1,7 @@
 .solution {
-  padding: 50px 0px;
+  text-align: center;
+  padding: 30px 10px;
+
   &__left {
     max-width: 600px;
   }
@@ -11,9 +13,9 @@
     margin-top: -28px;
   }
 
-  @media (width < 992px) {
-    text-align: center;
-    padding: 20px 10px;
+  @media (width > 1000px) {
+    text-align: inherit;
+    padding: 50px 0px;
   }
 
   @media (width > 1700px) {
